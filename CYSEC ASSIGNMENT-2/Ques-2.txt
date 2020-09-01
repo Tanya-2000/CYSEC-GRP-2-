@@ -1,0 +1,26 @@
+>>> #Write a function that checks whether a number is in a given range (inclusive of high and low).
+>>> def test_range(n):
+    if n in range(10,20):
+        print( " %s is in the range"%str(n))
+    else :
+        print("The number is outside the given range.")
+test_range(15)
+SyntaxError: invalid syntax
+>>> def test_range(n):
+    if n in range(3,9):
+        print( " %s is in the range"%str(n))
+    else :
+        print("The number is outside the given range.")
+
+>>> test_range(15)
+The number is outside the given range.
+>>> def test_range(n):
+    if n in range(10,20):
+        print( " %s is in the range"%str(n))
+    else :
+        print("The number is outside the given range.")
+
+        
+>>> test_range(15)
+ 15 is in the range
+>>> 
