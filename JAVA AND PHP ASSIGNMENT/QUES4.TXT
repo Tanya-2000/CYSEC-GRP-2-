@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>HELLO WORLD</title>
+</head>
+<body>
+         <script type ="text/javascript">
+           var n1=Number(prompt('enter the number'));
+	console.log(typeof(n1));
+           var n2=Number(prompt("enter the another number")) 
+	console.log(typeof(n2))
+           sum=n1+n2;
+	console.log(typeof(sum))
+	alert('sum is -'+sum);
+</script>
+</body>
+</html>
